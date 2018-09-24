@@ -1,0 +1,85 @@
+﻿VITACORA DE VERSIONES
+v0.0.0   09/11/2017
+	>EL sistema unicamente registra las perdidas y las muestra en un grafico con porcentajes y en forma de Pareto, se han hecho algunos cambios que no han sido registrados.
+
+v0.2.0	 10/11/2017 
+	> El sistema ahora cuando se seleccionan las garantías y si el usuario selecciona personas como razón de perdida, solo va a mostrar 3 opciones que son: Rafael maradiaga, Rodrigo Alvarado y Edwin orjuela
+	> Se limita el consecutivo del documento para que no puedan omitir o saltar un formulario.
+	> Se agregarón algunos tipos de diseño
+	>se agregó el tipo de lente convencional en el formulario y los campos en la base de datos, tambien se añadieron a las tablas que muestran los resultados para que sea visible el cambio.
+
+v0.2.4   14/11/2017
+	> Se agregó Tab de configuación visible solo para usuarios administradores.
+	> Se hicieron cambios todas las consultas a la base de datos para que omita las perdidas anuladas
+	> Se creó una tabla que lleve el registro de quien, cuando y porqué anuló una factura (aún no está en uso)
+
+v0.2.5   15/11/2017
+	> Se creó un buscador de documentos de perdida en el tab de configuración 
+	> imprime de manera automática (falta crear un contenido para imprimir)
+	> se agregaron los diseños en las tablas de documentos
+
+v0.2.6   20/11/2017
+	>Se puede reimprimir un documento
+
+v0.3.0   21/11/2017
+	>se agrega la opción de operación con todas las opciones de SAP, de igual manera se pueden registrar pero no las muestra en los datos aún.
+
+v0.3.1   22/11/2017
+	>muestra los datos capturados de operacíon
+
+v0.4.0   27/11/2017
+	>Permite Anular pérdidas, pero no muestra un reporte de anuladas
+
+v0.4.1 29/11/2017
+	>Corregido error en seleccionar origen de perdida
+
+v0.4.2 04/12/2017
+	>Corregido error en impresiones
+
+v0.4.4 19/12/2017
+	>Se separan las garantías de su asociado a personas y se crea un unico responsable llamado Garantías
+	>se crea un indicador más para las garantías en la barra de grafico.
+	>se registra la garantía automáticamente para el personal garantía
+
+v0.4.6 20/12/2017
+	>Se corrigió error en ingreso de datos de garantías 
+	>La operación por default para garantías es control de calidad
+
+v0.5.0 03/01/2018
+	>Se agregó en el formulario el ingreso del SKU del lente obligatorio
+	>se agregó a la base de datos todos los codigos de lentes, nombres y grupo al que pertenecen
+
+v0.5.1 03/01/2018
+	>Muestra los datos del codigo del lente y su nombre en las tablas, general, personas, maquinas, lentes, software.
+
+v0.5.2 10/01/2018
+	>Muetra razón de anulación de perdida en el buscador
+
+v0.5.3 20/02/2018
+	>mejoras en los ficheros de exportación a excel.
+	>animación de cargado de los contenidos.
+
+v0.5.5 14/03/2018
+	>Permite la impresión automática una vez hecha la perdida, tambien permite reimprimir cuando sea necesario
+
+v0.5.7 16/03/2018
+	>Corrección en impresiones persona,maquina,material,software además se agrega codigo de barras en SKU de lentes y numero de documento
+
+v0.6.2 22/03/2018
+	>Se agrega el campo del cliente en BD 
+	>Permite ingresar cliente en formulario y comprobar escritura
+	>se agrega cliente en impresión y se acomoda la hoja de impresión para que quepa toda la información
+	>se agrega receta de la orden y se almacena en una tabla para poder ser consultada.
+	>se agrega campos de la receta en la hoja de impresión
+
+v0.6.3 26/05/2018
+	>Muestra al cantidad de bandejas involucradas.
+
+v0.6.4 30/05/2018
+	>Indica si el SKU del lente existe en la base de datos antes de enviar el formulario
+
+v0.6.5 27/08/2018
+	>Usuario operario puede reimprimir
+
+v0.6.6 11/09/2018
+	>se envía un correo por cada perdida ingresada de maquina a José Solano
